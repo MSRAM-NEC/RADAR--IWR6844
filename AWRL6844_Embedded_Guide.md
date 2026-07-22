@@ -270,7 +270,7 @@ UART / CAN-FD output
 ├───────────────────────────────┤
 │ Version                       │
 ├───────────────────────────────┤
-│ Total Packet Length            │
+│ Total Packet Length           │
 ├───────────────────────────────┤
 │ Platform                      │
 ├───────────────────────────────┤
@@ -282,7 +282,7 @@ UART / CAN-FD output
 ├───────────────────────────────┤
 │ Num TLVs                      │
 ├───────────────────────────────┤
-│ Subframe Number                │
+│ Subframe Number               │
 ├───────────────────────────────┤
 │ TLV #1 (Type, Length, Value)  │
 │ TLV #2                        │
