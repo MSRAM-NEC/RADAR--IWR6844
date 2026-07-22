@@ -512,15 +512,60 @@ Performance tuning is fundamentally a memory-budget problem on this device: incr
 | General in-cabin sensing | Full pipeline (§05–§07) |
 
 ---
-
 ## Sources
-- [AWRL6844 product page](https://www.ti.com/product/AWRL6844) — TI.com
-- AWRL6843/AWRL6844 datasheet (Rev. A), 16 Dec 2025 — linked from the product page
-- xWRL68xx Technical Reference Manual (Rev. A), 07 Jan 2026
-- MMWAVE-L-SDK-6 release notes (v06.01.00.05, 15 Dec 2025)
 
-## Notes on what was corrected from the earlier draft
-- Total on-chip RAM is **2.5 MB** (AWRL6844) / 2.0 MB (AWRL6843), not the placeholder ~2.5MB-adjacent numbers in the first draft — but the *individual bank sizes* (TCMA 512KB, TCMB 256KB, L2 384KB, L3 512KB, Shared 896KB) are now datasheet-accurate rather than estimated.
-- "ACCEL_MEM" as a named fixed HWA bank isn't a datasheet term for this device — HWA buffers are carved from L2/L3/Shared RAM in the SDK's memory map.
-- R5F/DSP/HWA clock speeds (200/450/200 MHz) added — these weren't in the earlier draft at all.
-- Interface counts (3x UART, 2x CAN-FD, 2x SPI, LIN, 8x GPIO, 4x GPADC) are now sourced, not assumed.
+### Official Texas Instruments (Primary References)
+
+1. **AWRL6844 mmWave Radar Sensor – Product Page**  
+   https://www.ti.com/product/AWRL6844
+
+2. **AWRL6843 / AWRL6844 Single-Chip 60-GHz mmWave Sensor Datasheet (Rev. A)**  
+   https://www.ti.com/lit/ds/symlink/awrl6844.pdf
+
+3. **xWRL68xx Technical Reference Manual (TRM) (Rev. A)**  
+   https://www.ti.com/lit/pdf/swru610
+
+4. **MMWAVE-L-SDK 6.1 Release Notes (v06.01.00.05)**  
+   https://www.ti.com/tool/MMWAVE-L-SDK
+
+5. **MMWAVE-L-SDK Documentation**
+   https://dev.ti.com/tirex/explore/node?node=A__AN9Xy8i.4r5P6g8g6CzjBQ__MMWAVE_L_SDK__VLyFKFf__LATEST
+
+6. **mmWave-L-SDK API Guide**
+   (Available inside the installed SDK documentation)
+
+---
+
+### Development Tools
+
+7. **Code Composer Studio (CCS)**
+   https://www.ti.com/tool/CCSTUDIO
+
+8. **SysConfig**
+   https://www.ti.com/tool/SYSCONFIG
+
+9. **UniFlash**
+   https://www.ti.com/tool/UNIFLASH
+
+10. **TI Resource Explorer**
+    https://dev.ti.com/tirex/
+
+---
+
+### Additional Technical References
+
+11. **TI mmWave Training Series**
+    https://training.ti.com/mmwave-training-series
+
+12. **TI E2E Support Forum**
+    https://e2e.ti.com/
+
+13. **TI Precision Labs – Radar**
+    https://training.ti.com/ti-precision-labs-radar
+
+14. **TI Application Notes and Design Guides**
+    https://www.ti.com/radar
+
+15. **Radar Toolbox**
+    https://www.ti.com/tool/MMWAVE-RADAR-TOOLBOX
+
