@@ -1,6 +1,6 @@
-# AWRL6844 Complete Embedded Guide
+# AWRL/IWRL 6844 Complete Embedded Guide
 
-> Visual-first reference for the AWRL6844 mmWave radar SoC and its embedded software stack.
+> Visual-first reference for the AWRL/IWRL 6844 mmWave radar SoC and its embedded software stack.
 > Structure: 90% tables/diagrams, 10% short text.
 > Specs below are pulled from TI's official AWRL6843/AWRL6844 datasheet (Rev. A, 16 Dec 2025) and the xWRL68xx Technical Reference Manual — not placeholder numbers.
 
